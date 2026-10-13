@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "xcode": {
+      "type": "stdio",
+      "command": "xcrun",
+      "args": [
+        "mcpbridge"
+      ],
+      "env": {}
+    },
+    "blender": {
+      "type": "stdio",
+      "command": "/opt/homebrew/bin/uvx",
+      "args": [
+        "--from",
+        "git+https://projects.blender.org/lab/blender_mcp.git#subdirectory=mcp",
+        "blender-mcp"
+      ]
+    }
+  }
+}
